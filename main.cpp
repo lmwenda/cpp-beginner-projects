@@ -33,10 +33,7 @@ int main()
     cout<<"Add the function your want to run over here.";
 }
 
-void classDefiner()
-{
-    cout<<"Place Holder";
-}
+
 
 void calculator()
 {
