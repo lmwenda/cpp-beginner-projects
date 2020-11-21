@@ -3,9 +3,39 @@
 
 using namespace std;
 
+class MyClass
+{
+    public:
+        string name;
+        int age;
+        bool isOver18;
+
+    private:
+        string databaseName;
+        database(int id, string passwords, int items);
+        cout<<"ONLY ACCESSABLE TO ADMINS. THERE ARE NO ADMINS SO YH HEHEHEHE. If you want to access this private specifier use your skills to do so";
+};
+
+void classDefiner()
+{
+    MyClass myObj;
+
+    myObj.name = "Luke";
+    myObj.age = 13;
+    myObj.isOver18 = false;
+
+    cout<<"Searched for account name called 'Luke'. Here are the Account Details:  "<<endl;
+    cout<<myObj.name<<" | "<<myObj.age<<" | "<<myObj.isOver18<<endl;
+}
+
 int main()
 {
+    cout<<"Add the function your want to run over here.";
+}
 
+void classDefiner()
+{
+    cout<<"Place Holder";
 }
 
 void calculator()
@@ -37,7 +67,6 @@ void calculator()
         cout << "Invalid Operator.";
     }
     cout << result;
-    return result;
 }
 
 void namePrompt()
